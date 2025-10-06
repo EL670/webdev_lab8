@@ -1,0 +1,21 @@
+font-family: Calibr, sans-serif;
+#main-navbar {
+    background-color: lightblue
+    overflow: hidden;
+}
+#navbar-container {
+    width: 100%;
+    position: relative
+    max-width: 1200px;
+    text-align: center;   
+}
+#main-navbar ul  {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: inline-block
+    vertical-align: top;
+}
+#main-navbar ul li {
+    float: left;
+}
