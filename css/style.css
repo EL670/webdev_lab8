@@ -1,16 +1,16 @@
-font-family: Calibri, sans-serif;
+
 #main-navbar {
-    background-color: lightblue;
+    background-color: rgb(14, 76, 96);
     overflow: hidden;
+    padding: 10px;
 }
 #navbar-container {
     width: 100%;
     position: relative;
-    max-width: 1200px;
     text-align: center;   
 }
 #main-navbar ul  {
-    float: left;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -20,6 +20,14 @@ font-family: Calibri, sans-serif;
     float: left;
 }
 /* main-navbar ul li a display: */
+#main-navbar ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
 #main-navbar ul li a:hover {
     text-decoration: underline;
 }
