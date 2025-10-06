@@ -1,11 +1,11 @@
-font-family: Calibr, sans-serif;
+font-family: Calibri, sans-serif;
 #main-navbar {
-    background-color: lightblue
+    background-color: lightblue;
     overflow: hidden;
 }
 #navbar-container {
     width: 100%;
-    position: relative
+    position: relative;
     max-width: 1200px;
     text-align: center;   
 }
@@ -13,9 +13,13 @@ font-family: Calibr, sans-serif;
     float: left;
     margin: 0;
     padding: 0;
-    display: inline-block
+    display: inline-block;
     vertical-align: top;
 }
 #main-navbar ul li {
     float: left;
+}
+/* main-navbar ul li a display: */
+#main-navbar ul li a:hover {
+    text-decoration: underline;
 }
