@@ -31,3 +31,36 @@
 #main-navbar ul li a:hover {
     text-decoration: underline;
 }
+#sidebar {
+    background-color:rgb(53, 135, 15);
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+#sidebar-container {
+    width: 100%;
+    position: relative;
+    text-align: right;   
+}
+#sidebar ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    vertical-align: top;
+}
+#sidebar ul {
+    float: right;
+}
+#sidebar ul li a{
+    display: grid;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#sidebar ul li a:hover {
+    text-decoration: underline;
+}
