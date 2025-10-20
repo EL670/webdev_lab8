@@ -67,3 +67,6 @@
 #sidebar ul li a:hover {
     text-decoration: underline;
 }
+.bodybackground{
+    background-color: rgb(212, 150, 34);
+}
